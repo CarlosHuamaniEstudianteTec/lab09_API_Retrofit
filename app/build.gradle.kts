@@ -40,7 +40,16 @@ android {
 }
 
 dependencies {
-
+    //noinspection UseTomlInstead
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.9.0")
+    //noinspection UseTomlInstead
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    //noinspection UseTomlInstead
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    //noinspection UseTomlInstead
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+    //noinspection UseTomlInstead
+    implementation("io.coil-kt:coil-compose:2.2.2")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
