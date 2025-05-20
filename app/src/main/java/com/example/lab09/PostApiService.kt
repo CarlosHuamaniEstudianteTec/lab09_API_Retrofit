@@ -9,4 +9,5 @@ interface PostApiService {
 
     @GET("posts/{id}")
     suspend fun  getUserPostsbyId(@Path("id") id: Int): PostModel
+    fun getUserPostById(i: kotlin.Int)
 }
